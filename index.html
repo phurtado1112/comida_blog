@@ -12,21 +12,91 @@ and open the template in the editor.
         <title>Comidas</title>
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/app.css">
+        <linK rel="stylesheet" type="text/css" href="icons/foundation-icons.css">
     </head>
     <body>
-        <div class="row">
-            <div class="column large-6">Columna 1</div>
-            <div class="column large-6 text-right">
-                <h1>Comida Italiana</h1>
+        <header class="row col0">
+            <div class="columns large-3 small-3">
+                <div class="row text-right">
+                    <h2>Comida Italiana</h2>
+                    <h4>¡Riquisima!</h4>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="column large-5">
-
-            </div>
-            <div class="column large-7">
+        </header>
+        <main class="row">
+            <section class="column large-5 small-12 col1">
+                <div class="row search-input">
+                    <span class="searchbox-icon"><i class="fi-magnifying-glass"></i></span>
+                    <input type="search" placeholder="Search" name="search" class="searchbox-input">
+                </div>
+                <nav class="row">
+                    <ul class="vertical menu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Mi plato perfecto</a></li>
+                        <li><a href="#">Mis recetas</a></li>
+                    </ul>
+                </nav>
                 <div class="row">
+                    <h3>Favoritos:</h3>
+                    <div class="columns large-4">
+                        <img src="img/marisco 1.jpg" class="foto" alt="foto1">
+                    </div>
+                    <div class="columns large-4">
+                        <img src="img/marisco 2.jpg" class="foto" alt="foto2">
+                    </div>
+                    <div class="columns large-4">
+                        <img src="img/marisco 3.jpg" class="foto" alt="foto3">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns large-4">
+                        <img src="img/pasta 1.jpg" class="foto" alt="foto4">
+                    </div>
+                    <div class="columns large-4">
+                        <img src="img/pasta 2.jpg" class="foto" alt="foto5">
+                    </div>
+                    <div class="columns large-4">
+                        <img src="img/pasta 3.jpg" class="foto" alt="foto6">
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Historial:</h3>
+                    <div class="columns">
+                        <a href="#" class="historial">Mis recetas</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mi plato perfecto</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mis recetas</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Inicio</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mi plato perfecto</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mis recetas</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mi plato perfecto</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mis recetas</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Inicio</a>
+                    </div>
+                    <div class="columns">
+                        <a href="#" class="historial">Mi plato perfecto</a>
+                    </div>
+                </div>
+            </section>
+            <section class="column large-7 small-12 col2">
+                <article class="row">
                     <h2>Las Pastas</h2>
+                    <h6>23 de febrero de 2017</h6>
                     <img src="img/espaguetti_siciliano.jpg" alt="Espaguetti Siciliano">
                     <p class="text-justify">
                         Otro plato que nos trae el sabor del mar a la mesa es la 
@@ -46,12 +116,21 @@ and open the template in the editor.
                         la isla, encontraremos varias versiones. En Catania, por 
                         ejemplo, sustituyen la sardina por boquerones.
                     </p>
-                    
+                </article>
+                <div class="row collapse large-centered small-centered">
+                    <div class="columns large-1 large-offset-1 small-1 small-offset-1">
+                        <i class="fi-results-demographics size-40 icons"></i>
+                    </div>
+                    <div class="columns large-8 small-8 end">
+                        <textarea placeholder="Comentario" class="input-group-field"></textarea>
+                    </div>
                 </div>
-                <div class="row">
+                <hr>
+                <article class="row">
                     <h2>Los Mariscos</h2>
+                    <h6>22 de febrero de 2017</h6>
                     <img src="img/spaghetti-frutti-di-mare-con-marisco.jpg" alt="Mariscos">
-                   
+
                     <ol class="text-justify">
                         <li>
                             Pelar las gambas y quitarles la cabeza. Reservarlas.
@@ -82,10 +161,17 @@ and open the template in the editor.
                             el perejil picado y se sirve enseguida. ¡Buen apetito!
                         </li>
                     </ol>
-                    
+                </article>
+                <div class="row collapse large-centered small-centered">
+                    <div class="columns large-1 large-offset-1 small-1 small-offset-1">
+                        <i class="fi-results-demographics size-40 icons"></i>
+                    </div>
+                    <div class="columns large-8 small-8 end">
+                        <textarea placeholder="Comentario" class="input-group-field"></textarea>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>

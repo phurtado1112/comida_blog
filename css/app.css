@@ -1,4 +1,94 @@
+body {
+    /*background-color:#99ff00;*/  
+}
+
 div {
-    border: 1px solid black;
-    padding: 2px;
+    /*border: 1px solid black;*/
+    /*    padding: 5px;*/
+}
+
+i {
+    font-size: 26px;
+}
+
+.lupa {
+    background-color: #157539;
+}
+
+.col0 {
+    background-color: #3adb76;
+    padding: 1%;
+}
+
+.col1 {
+    /*background-color: #67251a;*/
+    padding: 3%;
+}
+
+.col2 {
+    padding: 3%;
+    /*background-color: #805700;*/
+}
+
+img {
+    padding-bottom: 2%;
+    padding-left: 10%;
+    width: 600px;
+    height: 400px;
+}
+
+.size-40 { 
+    font-size: 35px; 
+}
+
+nav ul li {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    height: 50px;
+}
+
+div ul li a {
+    color: #000;
+    font-weight: bold;
+}
+
+.icons {
+    /*padding-bottom: 20%;*/
+}
+
+.foto {
+    width:  150px;
+    height: 100px;
+    padding: 5%;
+}
+
+h3 {
+    margin-top: 5%;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+.search-input{
+    position:relative;
+}
+
+.searchbox-input{
+    border-radius: 10px;
+}
+
+.searchbox-icon{
+    position:absolute;
+    top:3px;
+    left: 10px;
+}
+
+input{
+    text-indent: 32px;
+}
+
+.historial {
+    font-size: 20px;
+    color: #000;
 }
